@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Tienda en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="botones.css">
+</head>
+<body>
+    <header>
+        <!-- Logo y barra de búsqueda -->
+        <div class="logo">
+            <a href="prueba.html"><h1>RadioStock</h1></a>
+        </div>
+        
+        <!-- Carrito -->
+        <div class="cart" id="cart">
+            <button id="cart-toggle">Carrito (<span id="cart-count">0</span>)</button>
+            <div class="cart-content" id="cart-content">
+                <ul id="cart-items"></ul>
+            </div>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+    </header>
+    
+<h1><center><img src="apple.png.png" height="300"></center></h1>
+    <ul class="categories1">
+    <li class="category-item" data-name="Iphone15" data-image="apple1.jpeg" data-features="Apple iPhone 15 (128 GB) - Negro,
+    Pantalla Super Retina XDR de 6.1 pulgadas,
+    Chip A16 Bionic con Neural Engine,
+    Sistema de cámara dual de 12 MP (ultra gran angular y gran angular),
+    Modo Noche y Deep Fusion,
+    Face ID para autenticación segura,
+    Resistencia al agua y al polvo (IP68),
+    Carga inalámbrica y MagSafe,
+    iOS 17" data-price="$21,999">
+        <img src="apple1.jpeg" height="250">
+        <span class="button-text">Iphone15 $21,999</span>
+    </li>
+    
+    <li class="category-item" data-name="Iphone 14" data-image="apple2.jpeg" data-price="$16,699" data-features="Apple iPhone 14 (128 GB) - Azul,
+    Pantalla Super Retina XDR de 6.1 pulgadas,
+    Chip A15 Bionic con Neural Engine,
+    Sistema de cámara dual de 12 MP (ultra gran angular y gran angular),
+    Modo Noche y Deep Fusion,
+    Face ID para autenticación segura,
+    Resistencia al agua y al polvo (IP68),
+    Carga inalámbrica y MagSafe,
+    iOS 16" data-price="$16,699">
+        <img src="apple2.jpeg" height="250">
+        <span class="button-text">Iphone14 $16,699</span>
+    </li>
+
+    <li class="category-item" data-name="Iphone 13" data-image="apple3.jpeg" data-price="$16,000" data-features="Apple iPhone 13 (256 GB) - Azul medianoche,
+    Pantalla Super Retina XDR de 6.1 pulgadas,
+    Chip A15 Bionic con Neural Engine,
+    Sistema de cámara dual de 12 MP (ultra gran angular y gran angular),
+    Modo Noche y Deep Fusion,
+    Face ID para autenticación segura,
+    Resistencia al agua y al polvo (IP68),
+    Carga inalámbrica y MagSafe,
+    iOS 15" data-price="$16,000">
+        <img src="apple3.jpeg" height="250">
+        <span class="button-text">Iphone13 $16,000</span>
+    </li>
+
+    <li class="category-item" data-name="Iphone 12" data-image="apple4.jpeg" data-price="$10,645" data-features="Apple iPhone 12 (64 GB) - Negro,
+    Pantalla Super Retina XDR de 6.1 pulgadas,
+    Chip A14 Bionic con Neural Engine,
+    Sistema de cámara dual de 12 MP (ultra gran angular y gran angular),
+    Modo Noche y Deep Fusion,
+    Face ID para autenticación segura,
+    Resistencia al agua y al polvo (IP68),
+    Carga inalámbrica y MagSafe,
+    iOS 14" data-price="$10,645">
+        <img src="apple4.jpeg" height="250">
+        <span class="button-text">Iphone12 $10,645</span>
+    </li>
+
+    <li class="category-item" data-name="Iphone 11" data-image="apple5.jpeg" data-price="$8,006" data-features="Apple iPhone 11 (64 GB) - Negro,
+    Pantalla Liquid Retina HD de 6.1 pulgadas,
+    Chip A13 Bionic con Neural Engine,
+    Sistema de cámara dual de 12 MP (ultra gran angular y gran angular),
+    Modo Noche y Deep Fusion,
+    Face ID para autenticación segura,
+    Resistencia al agua y al polvo (IP68),
+    Carga inalámbrica,
+    iOS 13" data-price="$8,006">
+        <img src="apple5.jpeg" height="250">
+        <span class="button-text">Iphone11 $8,006</span>
+    </li>
+</ul>
+
+           
+        <!-- Agrega más categorías si es necesario -->
+    </ul>
+
+    <h1><center><img src="samsung.PNG" height="300"></center></h1>
+
+    <ul class="categories1">
+    <li class="category-item" data-name="Samsung Galaxy S23 Ultra" data-image="sam1.jpeg" data-features="Samsung Galaxy S23 Ultra 12GB + 512GB Liberado Negro,
+    Pantalla Dynamic AMOLED 2X de 6.8 pulgadas,
+    Resolución QHD+ (3088 x 1440 píxeles),
+    Procesador Snapdragon 8 Gen 2,
+    Cámara cuádruple: Principal de 200 MP, Ultra gran angular de 12 MP, Telefoto de 10 MP y Telefoto de 10 MP,
+    Cámara frontal de 40 MP,
+    Batería de 5000 mAh con carga rápida,
+    Conectividad 5G, WiFi 6E, Bluetooth 5.3,
+    Resistencia al agua y al polvo (IP68),
+    S Pen integrado" data-price="$19,120">
+        <img src="sam1.jpeg" height="250">
+        <span class="button-text">SamsungS23 $19,120</span>
+    </li>
+    
+    <li class="category-item" data-name="Samsung Galaxy S22 Ultra" data-image="sam2.jpeg" data-features="Samsung Galaxy S22 Ultra 5G (Snapdragon) 256 GB Burgundy 12 GB RAM,
+    Pantalla Dynamic AMOLED 2X de 6.8 pulgadas,
+    Resolución QHD+ (3080 x 1440 píxeles),
+    Procesador Snapdragon 8 Gen 1,
+    Cámara cuádruple: Principal de 108 MP, Ultra gran angular de 12 MP, Telefoto de 10 MP y Telefoto de 10 MP,
+    Cámara frontal de 40 MP,
+    Batería de 5000 mAh con carga rápida,
+    Conectividad 5G, WiFi 6E, Bluetooth 5.2,
+    Resistencia al agua y al polvo (IP68),
+    S Pen integrado" data-price="$15,599">
+        <img src="sam2.jpeg" height="250">
+        <span class="button-text">SamsungS22 $15,599</span>
+    </li>
+
+    <li class="category-item" data-name="Samsung Galaxy S21 Ultra" data-image="sam3.jpeg" data-features="Samsung Galaxy S21 Ultra 5G 128 GB Phantom Black 12 GB RAM,
+    Pantalla Dynamic AMOLED 2X de 6.8 pulgadas,
+    Resolución WQHD+ (3200 x 1440 píxeles),
+    Procesador Exynos 2100 o Snapdragon 888 (según región),
+    Cámara cuádruple: Principal de 108 MP, Ultra gran angular de 12 MP, Telefoto de 10 MP y Telefoto de 10 MP,
+    Cámara frontal de 40 MP,
+    Batería de 5000 mAh con carga rápida,
+    Conectividad 5G, WiFi 6E, Bluetooth 5.2,
+    Resistencia al agua y al polvo (IP68)" data-price="$9,486">
+        <img src="sam3.jpeg" height="250">
+        <span class="button-text">SamsungS21 $9,486</span>
+    </li>
+
+    <li class="category-item" data-name="Samsung Galaxy S20+" data-image="sam4.jpeg" data-features="Samsung Galaxy S20+ 128 GB Cosmic Black 8 GB RAM,
+    Pantalla Dynamic AMOLED 2X de 6.7 pulgadas,
+    Resolución QHD+ (3200 x 1440 píxeles),
+    Procesador Exynos 990 o Snapdragon 865 (según región),
+    Cámara cuádruple: Principal de 12 MP, Ultra gran angular de 12 MP, Telefoto de 64 MP y Sensor de profundidad,
+    Cámara frontal de 10 MP,
+    Batería de 4500 mAh con carga rápida,
+    Conectividad 5G, WiFi 6, Bluetooth 5.0,
+    Resistencia al agua y al polvo (IP68)" data-price="$7,999">
+        <img src="sam4.jpeg" height="250">
+        <span class="button-text">SamsungS20 $7,999</span>
+    </li>
+
+    <li class="category-item" data-name="Samsung Galaxy S10+" data-image="sam5.jpeg" data-features="Samsung Galaxy S10+ 512 GB Negro Cerámico 8 GB RAM,
+    Pantalla Dynamic AMOLED de 6.4 pulgadas,
+    Resolución QHD+ (3040 x 1440 píxeles),
+    Procesador Exynos 9820 o Snapdragon 855 (según región),
+    Cámara triple: Principal de 12 MP, Ultra gran angular de 16 MP y Telefoto de 12 MP,
+    Cámara frontal dual de 10 MP + 8 MP,
+    Batería de 4100 mAh con carga rápida,
+    Conectividad 4G, WiFi 6, Bluetooth 5.0,
+    Resistencia al agua y al polvo (IP68)" data-price="$7,202">
+        <img src="sam5.jpeg" height="250">
+        <span class="button-text">SamsungS10 $7,202</span>
+    </li>
+</ul>
+
+<h1><center><img src="xiaomi.webp" height="300"></center></h1>
+
+<ul class="categories1">
+    <li class="category-item" data-name="XiaomiMi11" data-image="xiaomi1.jpeg" data-features="Xiaomi Mi 11 128GB 8GB RAM,
+    Pantalla AMOLED de 6.81 pulgadas,
+    Resolución QHD+,
+    Procesador Qualcomm Snapdragon 888,
+    Cámara trasera de 108 MP + 13 MP + 5 MP,
+    Cámara frontal de 20 MP,
+    Batería de 4600 mAh,
+    Sistema operativo MIUI 12 basado en Android 11,
+    Conectividad 5G" data-price="$15,999">
+        <img src="xiaomi1.jpeg" height="250">
+        <span class="button-text">XiaomiMi11 $15,999</span>
+    </li>
+    
+    <li class="category-item" data-name="XiaomiRedmiNote10" data-image="xiaomi2.jpg" data-features="Xiaomi Redmi Note 10 128GB 4GB RAM,
+    Pantalla AMOLED de 6.43 pulgadas,
+    Resolución FHD+,
+    Procesador Qualcomm Snapdragon 678,
+    Cámara trasera de 48 MP + 8 MP + 2 MP + 2 MP,
+    Cámara frontal de 13 MP,
+    Batería de 5000 mAh,
+    Sistema operativo MIUI 12 basado en Android 11,
+    Conectividad 4G" data-price="$6,999">
+        <img src="xiaomi2.jpg" height="290">
+        <span class="button-text">RedmiNote10 $6,999</span>
+    </li>
+
+    <li class="category-item" data-name="XiaomiPocoX3" data-image="xiaomi3.jpg" data-features="Xiaomi Poco X3 NFC 128GB 6GB RAM,
+    Pantalla IPS de 6.67 pulgadas,
+    Resolución FHD+,
+    Procesador Qualcomm Snapdragon 732G,
+    Cámara trasera de 64 MP + 13 MP + 2 MP + 2 MP,
+    Cámara frontal de 20 MP,
+    Batería de 5160 mAh,
+    Sistema operativo MIUI 12 basado en Android 10,
+    Conectividad 4G" data-price="$7,499">
+        <img src="xiaomi3.jpg" height="250">
+        <span class="button-text">PocoX3 $7,499</span>
+    </li>
+
+    <li class="category-item" data-name="XiaomiMi10TPro" data-image="xiaomi4.jpeg" data-features="Xiaomi Mi 10T Pro 256GB 8GB RAM,
+    Pantalla IPS de 6.67 pulgadas,
+    Resolución FHD+,
+    Procesador Qualcomm Snapdragon 865,
+    Cámara trasera de 108 MP + 13 MP + 5 MP,
+    Cámara frontal de 20 MP,
+    Batería de 5000 mAh,
+    Sistema operativo MIUI 12 basado en Android 10,
+    Conectividad 5G" data-price="$12,999">
+        <img src="xiaomi4.jpeg" height="250">
+        <span class="button-text">Mi10TPro $12,999</span>
+    </li>
+
+    <li class="category-item" data-name="XiaomiRedmi9" data-image="xiaomi5.jpeg" data-features="Xiaomi Redmi 9 64GB 4GB RAM,
+    Pantalla IPS de 6.53 pulgadas,
+    Resolución FHD+,
+    Procesador MediaTek Helio G80,
+    Cámara trasera de 13 MP + 8 MP + 5 MP + 2 MP,
+    Cámara frontal de 8 MP,
+    Batería de 5020 mAh,
+    Sistema operativo MIUI 12 basado en Android 10,
+    Conectividad 4G" data-price="$4,999">
+        <img src="xiaomi5.jpeg" height="250">
+        <span class="button-text">Redmi9 $4,999</span>
+    </li>
+</ul>
+
+
+
+    
+
+    <!-- Pantalla emergente -->
+    <div class="popup">
+        <div class="popup-content">
+            <img src="" alt="Producto">
+            <p class="price"></p>
+            <ul class="features"></ul>
+            <button class="buy-button">Comprar</button>
+            <button class="cart-button">Añadir al carrito</button>
+        </div>
+    </div>
+
+    
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-title">Conócenos</div>
+                <ul>
+                    <li><a href="#">Acerca de Radiostock</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Prensa</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Políticas</div>
+                <ul>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Aviso de Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Redes Sociales</div>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <div class="footer-title">Ayuda</div>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Envíos y Devoluciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="proyect.html">Volver a la página principal</a>
+        </div>
+        <footer>
+        
+        <center><h1>No desperdicies tu dinero, mejor ven a RadioStock!</h1></center>
+        
+        <p>&copy; 2024 Tu Tienda en Línea. Todos los derechos reservados.</p>
+    </footer>
+    </div>
+    
+    <script src="popup.js"></script> <!-- Añadir el archivo JavaScript -->
+</body>
+</html>
+
+
